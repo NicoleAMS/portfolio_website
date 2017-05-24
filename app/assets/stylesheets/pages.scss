@@ -1,3 +1,59 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+header {
+  text-align: center;
+  background: $sand;
+  background-image: url("/assets/zeus_temple.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $dark_blue;
+  .container {
+    padding-top: 150px;
+    padding-bottom: 50px
+  }
+  .photo-me {
+    border-radius: 50%;
+    width: 250px;
+    border: solid $dark_blue 5px;
+  }
+  .intro {
+    .name {
+      font-size: 4.75em;
+      font-family: cochin;
+    }
+    .skills {
+      font-size: 1.75em;
+      font-family: cochin;
+    }
+  }
+}
+
+#portfolio {
+  padding: 75px 0;
+  h2 {
+    color: $dark_blue;
+    font-size: 3em;
+  }
+  .row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .portfolio-item {
+      .caption {
+        background-color: $sand;
+        position: absolute;
+        width: 95%;
+        height: 100%;
+        opacity: 0;
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+      img {
+        width: 100%;
+        padding: 5px;
+        border: 2px solid $sand;
+        &:hover {
+          opacity: 0.2;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.navbar-custom {
+  background-color: $dark_blue;
+  border: none;
+  font-weight: 700;
+  font-family: cochin;
+  padding: 25px 0;
+  transition: padding .3s initial initial;
+  .navbar-nav {
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+}
+

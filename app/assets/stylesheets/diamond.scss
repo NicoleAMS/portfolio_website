@@ -1,0 +1,32 @@
+  .diamond, .diamond-portfolio {
+    padding: 0;
+    border: none;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    &:after {
+      content: "\f219";
+      display: inline-block;
+      font-family: fontAwesome;
+      position: relative;
+      top: -.8em;
+      font-size: 2em;
+      padding: 0 .25em;
+    }
+  }
+
+.diamond {
+  border-top: solid white 5px;
+  &:after {
+    color: $ruby_red;
+    background-color: #E8DDC9
+  }
+}
+
+.diamond-portfolio {
+  border-top: solid $sand 5px;
+  &:after {
+    color: $ruby_red;
+    background-color: white;
+  }
+}
