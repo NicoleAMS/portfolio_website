@@ -16,3 +16,20 @@
 //= require_tree .
 
 //= require bootstrap-sprockets 
+
+$(document).scroll(function() {
+  if ($(window).scrollTop() > 3){
+    $('#nav').css({"padding": "0px"});
+  }
+  else {
+    $('#nav').css("padding", "25px");
+  }
+});
+
+$('#nav').mouseenter(function() {
+  $('#nav').css("padding", "25px");
+});
+
+$('#nav').mouseleave(function() {
+  $('#nav').css("padding", "0px");
+});

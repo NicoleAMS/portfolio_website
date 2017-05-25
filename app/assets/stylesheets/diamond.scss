@@ -30,3 +30,11 @@
     background-color: white;
   }
 }
+
+.diamond-about {
+  border-top: solid white 5px;
+  &:after {
+    color: $ruby_red;
+    background-color: $sand;
+  }
+}

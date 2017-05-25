@@ -4,11 +4,25 @@
   font-weight: 700;
   font-family: cochin;
   padding: 25px 0;
-  transition: padding .3s initial initial;
+  -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+  transition: padding .3s;
   .navbar-nav {
     li {
+      &:active {
+        background-color: $ruby_red;
+      }
       a {
         color: white;
+        &:hover {
+          color: $sand;
+        }
+        &:active {
+          background-color: $ruby_red;
+        }
+        &:focus {
+          background-color: $ruby_red;
+        }
       }
     }
   }
