@@ -23,16 +23,44 @@
     </div>
     <div class="row">
       <div class="col-sm-6 portfolio-item">
-        <a href="" class="portfolio-link" data-toggle="modal">
-          <div class="caption"></div>
+        <div class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <h3 class="text-center">"The Buddha"</h3>
+            <h4 class="text-center">Museum Exhibition Webapp</h4>
+            <ul>
+              <li>Final project of "We Got Coders" web development bootcamp</li>
+              <li>Inspired by a real exhibition webpage</li>
+              <li>After registering, users can explore the artefacts and stories in each of the 7 galleries, search for an artefact by its number or country of origin</li>
+              <li>"Book a ticket" and "Shop" are currently there for design purposes only</li>
+              <li>Rails 5, HTML5, SCSS, Bootstrap, Javascript, Google Maps, Devise, Cancancan, Rails-admin, Carrierwave</li>
+            </ul>
+            <div class="col-lg-4 col-lg-offset-8">
+              <button class="btn btn-outline-primary"><a href="https://github.com/NicoleAMS/WGC-Final-Project-/">Github</a></button>
+              <button class="btn btn-outline-primary"><a href="https://buddha-museum-exhibition.herokuapp.com/">Website</a></button>
+            </div>
+          </div>
           <img src="/assets/buddha-preview.png">
-        </a>
+        </div>
       </div>
       <div class="col-sm-6 portfolio-item">
-        <a href="" class="portfolio-link" data-toggle="modal">
-          <div class="caption"></div>
+        <div class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <h3 class="text-center">"A Little Bit"</h3>
+            <h4 class="text-center">Bookshop Homepage & Product Page</h4>
+            <ul>
+              <li>Front-end practice, week 6 of "We Got Coders" web development bootcamp</li>
+              <li>Based on a design mockup made in Photoshop</li>
+              <li>Rails5, HTML5, SCSS</li>
+              <li>Grid-writing practice, no use of Bootstrap</li>
+              <li>Fully responsive, tested on multiple devices</li>
+            </ul>
+            <div class="col-lg-4 col-lg-offset-8">
+              <button class="btn btn-outline-primary"><a href="https://github.com/NicoleAMS/wgc_a_little_bit_of_knowledge">Github</a></button>
+              <button class="btn btn-outline-primary"><a href="https://wgc-a-little-bit.herokuapp.com/">Website</a></button>
+            </div>
+          </div>
           <img src="/assets/a_little_bit_preview.png">
-        </a>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -63,6 +91,9 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <p>I am a full-stack web developer with a strong interest in web design/front-end, UI & UX. I also have a background in art history and a passion for digital cultural heritage. Digital heritage, design, an interest in helping people around the world and a desire to help build a more sustainable future was what drove me to pursue a career as a web developer.</p> 
+        <div class="text-center">
+          <button class="btn btn-outline-primary download-cv"><%= link_to 'Download my CV', pages_pdf_path %></button>
+        </div>
       </div>
     </div>
   </div>
