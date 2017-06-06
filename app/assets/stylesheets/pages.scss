@@ -35,7 +35,7 @@ header {
     font-family: cochin;
     font-weight: 700;
   }
-  .row {
+  .margin50 {
     margin-top: 50px;
     margin-bottom: 50px;
     .portfolio-item {
@@ -70,7 +70,7 @@ header {
   background-repeat: repeat;
   background-size: contain;
   background-color: $sand;
-  .row {
+  .margin50 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -98,3 +98,25 @@ header {
     }
   }
 }
+
+  .social-media-icons {
+    margin-top: 25px;
+    padding: 25px;
+    color: $dark_blue;
+    font-size: 40px;
+  }
+  .fa-github-square {
+    &:hover {
+      color: black;
+    }
+  }
+  .fa-facebook-square {
+    &:hover {
+      color: $facebook_blue;
+    }
+  }
+  .fa-linkedin-square {
+    &:hover {
+      color: $linkedin_blue;
+    }
+  }
