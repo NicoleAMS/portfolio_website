@@ -15,6 +15,12 @@
   }
   .carousel-indicators {
     bottom: -50px;
+    .active {
+      background-color: $dark_blue;
+    }
+    li {
+      background-color: $sand;
+    }
   }
   .carousel-caption {
     opacity: 0;
