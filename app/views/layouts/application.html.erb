@@ -15,12 +15,18 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#portfolio">PORTFOLIO</a></li>
           <li><a href="#about">ABOUT ME</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </nav>
 
     <%= yield %>
+
+    <footer>
+      <div class="col-lg-2 col-lg-offset-10 text-center">
+        <p> &#169; Nicole Sentis 2017</p>
+      </div>
+    </footer>
 
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 

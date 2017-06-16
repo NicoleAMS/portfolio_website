@@ -1,0 +1,54 @@
+.carousel {
+/*  margin-top: 300px;
+  margin-bottom: 200px;*/
+  width: 60%;
+  margin-left: 20%;
+  .carousel-control {
+    .glyphicon-chevron-right {
+      right: -25%;
+      color: $dark_blue;
+    }
+    .glyphicon-chevron-left {
+      left: -25%;
+      color: $dark_blue;
+    }
+  }
+  .carousel-indicators {
+    bottom: -50px;
+  }
+  .carousel-caption {
+    opacity: 0;
+    background-color: $sand;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    color: $dark_blue;
+    text-shadow: none;
+    &:hover {
+      opacity: 0.99;
+    }
+    ul {
+      margin-left: 15%;
+      margin-right: 15%;
+      text-align: left;
+      li {
+        font-size: 16px;
+      }
+    }
+    a {
+      color: $ruby_red;
+    }
+    h3 {
+      font-size: 30px;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    h4 {
+      font-size: 24px;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+}

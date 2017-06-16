@@ -9,22 +9,22 @@
   transition: padding .3s;
   .navbar-nav {
     li {
-      &:active {
-        background-color: $ruby_red;
-      }
       a {
         color: white;
         &:hover {
           color: $sand;
-        }
-        &:active {
-          background-color: $ruby_red;
-        }
-        &:focus {
-          background-color: $ruby_red;
         }
       }
     }
   }
 }
 
+footer {
+  height: 80px;
+  background-color: $dark_blue;
+  color: white;
+  font-size: 16px;
+  p {
+    padding-top: 32px;
+  }
+}
