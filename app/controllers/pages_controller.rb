@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   end 
 
   def pdf
-    send_file Rails.root.join('files', 'Nicole_Sentis_CV.pdf'), :type=>"application/pdf", :x_sendfile=>true 
+    send_file Rails.root.join('files', 'Nicole_SentisCV.pdf'), :type=>"application/pdf", :x_sendfile=>true 
   end 
   
 end
