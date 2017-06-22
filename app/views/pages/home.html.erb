@@ -1,7 +1,7 @@
 <header>
   <div class="container">
     <div class="row margin50">
-      <div class="col-lg-12">
+      <div class="col-lg-12 col-md-12">
         <div class="slider">
           <div class='slide1'>
             <img class="photo-me" src="/assets/hotel.jpg">
@@ -26,10 +26,10 @@
         <div class="intro">
           <h1 class="name">Nicole Sentis</h1>
           <div class="row">
-            <div class="col-lg-2 col-lg-offset-4 dm">
+            <div class="dm col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 col-xs-6">
               <hr class="diamond">
             </div>
-            <div class="col-lg-2 dm2">
+            <div class="col-lg-2 dm2 col-md-2 col-sm-3 col-xs-6">
               <i class="fa fa-diamond" aria-hidden="true"></i>
               <hr class="diamond">
             </div>
@@ -47,10 +47,10 @@
       <div class="col-lg-12 text-center">
         <h2>PORTFOLIO</h2>
         <div class="row">
-          <div class="col-lg-2 col-lg-offset-4 dm">
+          <div class="dm col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 col-xs-6">
             <hr class="diamond diamond-portfolio">
           </div>
-          <div class="col-lg-2 dm2">
+          <div class="col-lg-2 dm2 col-md-2 col-sm-3 col-xs-6">
             <i class="fa fa-diamond" aria-hidden="true"></i>
             <hr class="diamond diamond-portfolio">
           </div>
@@ -70,9 +70,9 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
-        <div class="item active">
+        <div class="item active" id="buddha" data-toggle="modal" data-target="#buddhaModal">
           <img src="/assets/buddha-preview.png">
-          <div class="carousel-caption">
+          <div class="carousel-caption" id="buddha-caption">
             <h3>"The Buddha"</h3>
             <h4>Museum Exhibition Webapp</h4>
             <ul>
@@ -89,7 +89,35 @@
           </div>
         </div>
 
-        <div class="item">
+        <div id="buddhaModal" class="modal fade hidden-lg hidden-md" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3>"The Buddha"</h3>
+                <h4>Museum Exhibition Webapp</h4>
+              </div>
+              <div>
+                <ul>
+                  <li>Final project of "We Got Coders" web development bootcamp</li>
+                  <li>Inspired by a real exhibition webpage</li>
+                  <li>After registering, users can explore the artefacts and stories in each of the 7 galleries, search for an artefact by its number or country of origin</li>
+                  <li>"Book a ticket" and "Shop" are currently there for design purposes only</li>
+                  <li>Rails 5, HTML5, SCSS, Bootstrap, Javascript, Postgresql, Google Maps, Devise, Cancancan, Rails-admin, Carrierwave</li>
+                </ul>
+                <div class="website-links">
+                  <button class="btn btn-outline-primary"><a href="https://github.com/NicoleAMS/WGC-Final-Project-/">Github</a></button>
+                  <button class="btn btn-outline-primary"><a href="https://buddha-museum-exhibition.herokuapp.com/">Website</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item" id="bookshop" data-toggle="modal" data-target="#bookshopModal">
           <img src="/assets/a_little_bit_preview.png">
           <div class="carousel-caption">
             <h3>"A Little Bit"</h3>
@@ -108,7 +136,35 @@
           </div>
         </div>
 
-        <div class="item">
+        <div id="bookshopModal" class="modal fade hidden-lg hidden-md" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3>"A Little Bit"</h3>
+                <h4>Bookshop Homepage & Product Page</h4>
+              </div>
+              <div>
+                <ul>
+                  <li>Front-end practice, week 6 of "We Got Coders" web development bootcamp</li>
+                  <li>Based on a design mockup made in Photoshop</li>
+                  <li>Rails5, HTML5, SCSS</li>
+                  <li>Grid-writing practice, no use of Bootstrap</li>
+                  <li>Fully responsive, tested on multiple devices</li>
+                </ul>
+                <div class="website-links">
+                  <button class="btn btn-outline-primary"><a href="https://github.com/NicoleAMS/wgc_a_little_bit_of_knowledge">Github</a></button>
+                  <button class="btn btn-outline-primary"><a href="https://wgc-a-little-bit.herokuapp.com/">Website</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item" id="stories" data-toggle="modal" data-target="#storiesModal">
           <img src="/assets/stories_preview.png">
           <div class="carousel-caption">
             <h3>"Stories"</h3>
@@ -125,7 +181,33 @@
           </div>
         </div>
 
-        <div class="item">
+        <div id="storiesModal" class="modal fade hidden-lg hidden-md" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3>"Stories"</h3>
+                <h4>Home, About & Subscription pages for an upcoming travel journal app</h4>
+              </div>
+              <div>
+                <ul>
+                  <li>Based on a Codecademy's Freeform project to practice Rails</li>
+                  <li>Rails5, HTML5, SCSS, Bootstrap, jQuery, Postgresql</li>
+                  <li>Includes a navigation menu that slides from the left and a contact form that adds users to a mailing list</li>
+                </ul>
+                <div class="website-links">
+                  <button class="btn btn-outline-primary"><a href="https://github.com/NicoleAMS/stories_travel_journal">Github</a></button>
+                  <button class="btn btn-outline-primary"><a href="https://stories-my-travel-journal.herokuapp.com/">Website</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item" id="singles" data-toggle="modal" data-target="#singlesModal">
           <img src="/assets/we_got_singles_preview.png">
           <div class="carousel-caption">
             <h3>"We Got Singles"</h3>
@@ -140,6 +222,33 @@
             <div class="col-lg-4 col-lg-offset-7">
               <button class="btn btn-outline-primary"><a href="http://we-got-singles.herokuapp.com/">Website</a></button>
             </div>
+          </div>
+        </div>
+
+        <div id="singlesModal" class="modal fade hidden-lg hidden-md" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3>"We Got Singles"</h3>
+                <h4>Dating website</h4>
+              </div>
+              <div>
+                <ul>
+                  <li>Group project during week 9 of "We Got Coders" web development bootcamp</li>
+                  <li>4,5 days, 1 briefing, 1 presentation, 6 team members</li>
+                  <li>We used Pivotal Tracker to write down the "client's" requirements in stories and rated each story based on difficulty</li>
+                  <li>My main contribution to this project was the front-end, which I designed and developed together with one other team member</li>
+                  <li>Rails5, HTML5, SCSS, Bootstrap, jQuery/Javascript, Postgresql, Git/Bitbucket</li>
+                </ul>
+                <div class="website-links">
+                  <button class="btn btn-outline-primary"><a href="http://we-got-singles.herokuapp.com/">Website</a></button>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -165,10 +274,10 @@
       <div class="col-lg-12 text-center">
         <h2>ABOUT ME</h2>
         <div class="row">
-          <div class="col-lg-2 col-lg-offset-4 dm">
+          <div class="dm col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 col-xs-6">
             <hr class="diamond diamond-about">
           </div>
-          <div class="col-lg-2 dm2">
+          <div class="col-lg-2 dm2 col-md-2 col-sm-3 col-xs-6">
             <i class="fa fa-diamond" aria-hidden="true"></i>
             <hr class="diamond diamond-about">
           </div>
@@ -185,6 +294,10 @@
           <a href="https://github.com/NicoleAMS"><i class="fa fa-github-square social-media-icons" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/nicolesentis/"><i class="fa fa-linkedin-square social-media-icons" aria-hidden="true"></i></a>
           <a href="https://www.facebook.com/nicole.sentis"><i class="fa fa-facebook-square social-media-icons" aria-hidden="true"></i></a>
+          <div>
+            <p> Phone number: +44 (0)7845587309 </p>
+            <p> Email address: nicole.sentis@gmail.com </p>
+          </div>
         </div>
       </div>
     </div>

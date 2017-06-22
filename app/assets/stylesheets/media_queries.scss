@@ -1,0 +1,26 @@
+@media (max-width: 1023px) {
+
+  .modal {
+    .modal-content {
+      padding-left: 25px;
+      padding-right: 25px;
+      h3, h4 {
+        text-align: center;
+      }
+      ul {
+        padding-top: 25px;
+      }
+      .website-links {
+        padding-bottom: 25px;
+        text-align: right;
+      }
+    }
+  }
+  #myCarousel {
+    .carousel-caption {
+      &:hover {
+        opacity: 0;
+      }
+    }
+  }
+}

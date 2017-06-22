@@ -2,7 +2,7 @@
     padding: 0;
     border: none;
     text-align: center;
-    max-width: 250px;
+    max-width: 100%;
     margin: 25px auto 30px;
 /*    &:after {
       content: "\f219";
@@ -35,8 +35,8 @@
 
 .fa-diamond {
   position: absolute;
-  top: 15px;
-  right: 178px;
+  top: 28%;
+  right: 90%;
   color: $ruby_red;
   font-size: 2em;
 }
